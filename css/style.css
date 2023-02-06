@@ -403,8 +403,14 @@ img{
     color: #037bc0;
 }
 .contenido-entrada-blog{
-    width: 60rem;
+    width: 100%;
     margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .contenido-entrada-blog{
+        width: 60rem;
+    }
 }
 /* Galería */
 .galeria{
